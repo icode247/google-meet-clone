@@ -1,0 +1,41 @@
+{
+  "name": "google-meet-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.10",
+    "@tanstack/react-query": "^5.59.15",
+    "@types/js-cookie": "^3.0.6",
+    "@types/simple-peer": "^9.11.8",
+    "@types/webrtc": "^0.0.44",
+    "axios": "^1.7.7",
+    "clsx": "^2.1.1",
+    "cookies-next": "^4.3.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.453.0",
+    "next": "15.0.0",
+    "react": "19.0.0-rc-65a56d0e-20241020",
+    "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.8.0",
+    "tailwind-merge": "^2.5.4",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
